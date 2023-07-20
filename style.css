@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --one: rgb(136, 74, 57);
+  --two: rgb(195, 129, 84);
+  --three: rgb(255, 194, 111);
+  --four: rgb(249, 224, 187);
+}
+.bg-one {
+  background-color: var(--one);
+}
+.bg-two {
+  background-color: var(--two);
+}
+.bg-three {
+  background-color: var(--three);
+}
+.bg-four {
+  background-color: var(--four);
+}
+.text-one {
+  color: var(--one);
+}
+.text-two {
+  color: var(--two);
+}
+.text-three {
+  color: var(--three);
+}
+.text-four {
+  color: var(--four);
+}
+.hover:hover {
+  background-color: var(--two);
+}
+.logo {
+  font-family: 'Anton', sans-serif;
+}
+
+/* Set the background image and make it full height */
+.parallax-header {
+  background-image: url('assets/background-ww1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Center content vertically */
+.parallax-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style the heading text */
+.parallax-heading {
+  font-size: 70px;
+  color: var(--one);
+  -webkit-text-stroke: 1px #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+/* Style the statement text */
+.parallax-text {
+  margin: 0 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  -webkit-text-stroke: 0.5px #000;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+img {
+  width: 530px;
+}
+body {
+  background-color: var(--one);
+}
